@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Urbanist:wght@300&display=swap');
+* {
+  font-family: 'Urbanist', sans-serif;
+}
+.menus {
+  display: none;
+  margin: auto;
+  border: 3px solid black;
+  padding: 2em;
+}
+
+.menu {
+  color: rgb(255, 255, 228);
+  background: rgb(255, 104, 44);
+  padding: 1em;
+  margin: 20px;
+  border: 3px solid rgb(255, 179, 39);
+  cursor: pointer;
+}
+
+#D {
+  background-color: rgb(255, 179, 39);
+  width: 800px;
+  height: 1500px;
+
+}
+
+#L {
+  background: rgb(250, 237, 122);
+  width: 600px;
+  height: 750px;
+
+}
+
+#H {
+  background: limegreen;
+  width: 400px;
+  height: 800px;
+
+}
+
+#Dr {
+  background: rgb(155, 131, 155);
+  width: 200px;
+  height: 600px;
+
+}
+
+#nav {
+  text-align: center;
+  padding: 2em;
+
+
+}
+
+.menus h1 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+header {
+  background-color: rgb(255, 104, 44);
+  text-align: center;
+  padding: 3em;
+  font-size: large;
+  width: 60%;
+  margin: auto;
+}
+header h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-left: 5em;
+  padding-top: 2em;
+}
+
+#panel, #flip, #panel2, #flip2, #panel4, #flip4, #panel5, #flip5, #panel6, #flip6, #panel7, #flip7, #panel8, #flip8, #panel9, #flip9, #panel10, #flip10, #panel11, #flip11, #panel12, #flip12, #panel13, #flip13, #panel14, #flip14, #panel15, #flip15, #panel16, #flip16, #panel17, #flip17, #panel18, #flip18, #panel19, #flip19 {
+  background-color: rgb(255, 255, 228);
+  border: solid 1px rgb(255, 104, 44);
+  padding: 3px;
+}
+
+#panel, #panel2, #panel4, #panel5, #panel6, #panel7, #panel8, #panel9, #panel10, #panel11, #panel12, #panel13, #panel14, #panel15, #panel16, #panel17, #panel18, #panel19 {
+  display: none;
+  padding: 3px;
+}
+
+.menus h1, .menus h2 {
+  text-align: left;
+  margin-left: 15%;
+}
+
+#panel img, #panel2 img, #panel4 img, #panel5 img, #panel6 img, #panel7 img, #panel8 img, #panel9 img, #panel10 img, #panel11 img, #panel12 img, #panel13 img, #panel14 img, #panel15 img, #panel16 img, #panel17 img, #panel18 img, #panel19 img {
+  float: left;
+  padding-left: 2px;
+  padding-right: 5px;
+  margin: auto
+}
+
+.clear {
+  clear: both;
+}
+
+.appetizer, .entree, .grilltop, .desert, .brunch {
+  float: left;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+header img {
+  float: right;
+}
+#Dr p {
+  font-style: italic;
+  font-weight: bold;
+  cursor: pointer;
+}
